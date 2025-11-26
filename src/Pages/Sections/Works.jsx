@@ -15,7 +15,7 @@ import Hotels from "/src/assets/VrnHOTELS.png";
 
 
 export const MODULES_DATA = [
-  { id: "proj-01", title: "VRN Saloon", subtitle: "React js", img: {Saloon}, link: "/projects/https://vrnsaloon.vercel.app" },
+  { id: "proj-01", title: "VRN Saloon", subtitle: "React js", img: Saloon, link: "/projects/https://vrnsaloon.vercel.app" },
   { id: "proj-02", title: "BranchSelector", subtitle: "React js ,Node.js", img: {Branchselector}, link: "https://www.branchselector.com/" },
   { id: "proj-03", title: "Nettrackr", subtitle: "React js,Node,Firebase", img:{Nettrackrpic}, link: "https://nettrackr.vercel.app/" },
   { id: "proj-04", title: "CyberSafeGirl", subtitle: "Nextjs,Firebase", img: {Csg}, link: "https://cybersafegirl.com/" },
