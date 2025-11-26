@@ -28,7 +28,7 @@ const Section = styled.section`
   display: flex;
   align-items: center;
   overflow: hidden;
-  background-image: url("${HERO_BG}");
+ 
   background-position: center right;
   background-size: cover;
   background-repeat: no-repeat;
