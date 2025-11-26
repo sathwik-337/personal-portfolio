@@ -15,7 +15,7 @@ export default function Footer() {
       className="relative text-white"
       style={{ background: "linear-gradient(180deg,#241c1d,#0f0b0b)" }}
     >
-      {/* Decorative faded image */}
+      {/* Decorative faded BG */}
       <div
         aria-hidden
         className="absolute inset-0 opacity-5 pointer-events-none"
@@ -47,7 +47,7 @@ export default function Footer() {
                 <FaLinkedinIn className="w-4 h-4" />
               </a>
               <a
-                href="https://www.instagram.com/sathwik._31?igsh=MXI0YzdtNG12Nzgycw=="
+                href="https://www.instagram.com/sathwik._31"
                 target="_blank"
                 className="p-3 rounded-md bg-white/6 hover:bg-white/10 transition"
               >
@@ -70,61 +70,56 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* MIDDLE SECTION */}
-         import { Link } from "react-router-dom";
+          {/* MIDDLE SECTION — Quick Links */}
+          <div>
+            <h4 className="font-semibold mb-3">Quick Links</h4>
+            <ul className="space-y-2 text-gray-300">
+              <li>
+                <Link to="/" className="hover:text-[#d89463]">
+                  Home
+                </Link>
+              </li>
 
-<div className="flex justify-between md:justify-center">
-  <div>
-    <h4 className="font-semibold mb-3">Quick Links</h4>
-    <ul className="space-y-2 text-gray-300">
-      <li>
-        <Link to="/" className="hover:text-[#d89463]">
-          Home
-        </Link>
-      </li>
+              <li>
+                <Link to="/work" className="hover:text-[#d89463]">
+                  Projects
+                </Link>
+              </li>
 
-      <li>
-        <Link to="/work" className="hover:text-[#d89463]">
-          Projects
-        </Link>
-      </li>
+              <li>
+                <Link to="/service" className="hover:text-[#d89463]">
+                  Services
+                </Link>
+              </li>
 
-      <li>
-        <Link to="/service" className="hover:text-[#d89463]">
-          Services
-        </Link>
-      </li>
+              <li>
+                <Link to="/contact" className="hover:text-[#d89463]">
+                  Contact
+                </Link>
+              </li>
+            </ul>
 
-      <li>
-        <Link to="/contact" className="hover:text-[#d89463]">
-          Contact
-        </Link>
-      </li>
-    </ul>
-  </div>
-</div>
-
-
-            <div className="ml-6 md:ml-12">
+            {/* Contact */}
+            <div className="mt-6">
               <h4 className="font-semibold mb-3">Contact</h4>
               <p className="text-gray-300 text-sm">sathwikkamath31@gmail.com</p>
               <p className="text-gray-300 text-sm">+91 95911 78734</p>
             </div>
           </div>
 
-          {/* RIGHT SECTION — Terms & Privacy */}
+          {/* RIGHT SECTION — Legal */}
           <div>
             <h4 className="font-semibold mb-3">Legal</h4>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <a href="/terms" className="hover:text-[#d89463]">
+                <Link to="/terms" className="hover:text-[#d89463]">
                   Terms & Conditions
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/privacy" className="hover:text-[#d89463]">
+                <Link to="/privacy" className="hover:text-[#d89463]">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
             </ul>
 
@@ -136,8 +131,8 @@ export default function Footer() {
                   style={{ transformOrigin: "left" }}
                 >
                   © {new Date().getFullYear()} Sathwik Kamath — All rights
-                  reserved • Freelance Web Developer • UI / UX • React •
-                  Node.js • Deployment & Hosting • Privacy First
+                  reserved • Freelance Web Developer • UI / UX • React • Node.js
+                  • Deployment & Hosting • Privacy First
                 </div>
               </div>
             </div>
@@ -151,13 +146,13 @@ export default function Footer() {
           </div>
           <div>
             Designed & built by Sathwik •{" "}
-            <a href="/terms" className="hover:text-[#d89463]">
+            <Link to="/terms" className="hover:text-[#d89463]">
               Terms
-            </a>{" "}
+            </Link>{" "}
             •{" "}
-            <a href="/privacy" className="hover:text-[#d89463]">
+            <Link to="/privacy" className="hover:text-[#d89463]">
               Privacy
-            </a>
+            </Link>
           </div>
         </div>
       </div>
