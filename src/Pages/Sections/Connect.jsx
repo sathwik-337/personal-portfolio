@@ -7,6 +7,26 @@ import resume from "/src/assets/Sathwik Kamath(Resume).pdf"
 // background image uploaded to /mnt/data (keeps your original asset path)
 const BG = "/mnt/data/75154ad3-c13d-41aa-b215-484f7d1887f0.png";
 
+const CTA = styled(Link)`
+  border: 1px solid ${ACCENT};
+  color: ${ACCENT};
+  padding: 12px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: background 180ms ease, color 180ms ease;
+  background: transparent;
+
+  &:hover {
+    background: ${ACCENT};
+    color: ${DARK_BG};
+  }
+
+  @media (max-width: 640px) {
+    display: none;
+  }
+`;
+
 /**
  * ContactCTA — call-to-action / social buttons section
  *
