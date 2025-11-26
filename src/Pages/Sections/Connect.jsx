@@ -58,7 +58,7 @@ export default function ContactCTA() {
       id: "email",
       label: "Email",
       icon: <FiMail className="w-6 h-6" />,
-      href: "mailto:sathwikkamath31@gmail.com", // replace with your email
+      href: "https://mail.google.com/mail/?view=cm&fs=1&to=sathwikkamath31@gmail.com", // replace with your email
     },
     {
       id: "instagram",
