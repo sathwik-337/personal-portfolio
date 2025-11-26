@@ -1,6 +1,13 @@
 // src/pages/Work.jsx
 import React from "react";
 import { useLocation, useParams, useNavigate } from "react-router-dom";
+import Branchselector from "/src/assets/Branch.png";
+import Saloon from "/src/assets/Vrnsaloon.png";
+import Nettrackrpic from "/src/assets/Net.png";
+import Csg from "/src/assets/CSG-7.webp";
+import Infotech from "/src/assets/VRN.png";
+import Hotels from "/src/assets/VrnHOTELS.png";
+/**
 
 // local/shared hero image (uploaded asset)
 const HERO_IMG = "";
@@ -35,7 +42,7 @@ const PROJECTS = [
      "Smooth Layout",
     ],
     tech: ["React", "Vercel"],
-    screenshots: ["/src/assets/Vrnsaloon.png"],
+    screenshots: Saloon,
     live: "https://vrnsaloon.vercel.app/",
     repo: "",
   },
