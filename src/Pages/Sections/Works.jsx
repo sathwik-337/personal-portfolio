@@ -7,7 +7,7 @@ import React, { useEffect, useRef, useState } from "react";
  */
 
 // default image (uploaded asset). Use this path or replace per-item.
-const DEFAULT_IMG = "/mnt/data/1a05b31d-b67a-47b4-bd6a-eba10b7af430.png";
+
 
 export const MODULES_DATA = [
   { id: "proj-01", title: "VRN Saloon", subtitle: "React js", img: "/src/assets/Vrnsaloon.png", link: "/projects/https://vrnsaloon.vercel.app" },
