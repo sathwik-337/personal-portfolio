@@ -5,6 +5,7 @@ import {
   FaWhatsapp,
   FaGithub,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const BG = "/mnt/data/75154ad3-c13d-41aa-b215-484f7d1887f0.png";
 
@@ -70,32 +71,39 @@ export default function Footer() {
           </div>
 
           {/* MIDDLE SECTION */}
-          <div className="flex justify-between md:justify-center">
-            <div>
-              <h4 className="font-semibold mb-3">Quick Links</h4>
-              <ul className="space-y-2 text-gray-300">
-                <li>
-                  <a href="/" className="hover:text-[#d89463]">
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="/work" className="hover:text-[#d89463]">
-                    Projects
-                  </a>
-                </li>
-                <li>
-                  <a href="/service" className="hover:text-[#d89463]">
-                    Services
-                  </a>
-                </li>
-                <li>
-                  <a href="/contact" className="hover:text-[#d89463]">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
+         import { Link } from "react-router-dom";
+
+<div className="flex justify-between md:justify-center">
+  <div>
+    <h4 className="font-semibold mb-3">Quick Links</h4>
+    <ul className="space-y-2 text-gray-300">
+      <li>
+        <Link to="/" className="hover:text-[#d89463]">
+          Home
+        </Link>
+      </li>
+
+      <li>
+        <Link to="/work" className="hover:text-[#d89463]">
+          Projects
+        </Link>
+      </li>
+
+      <li>
+        <Link to="/service" className="hover:text-[#d89463]">
+          Services
+        </Link>
+      </li>
+
+      <li>
+        <Link to="/contact" className="hover:text-[#d89463]">
+          Contact
+        </Link>
+      </li>
+    </ul>
+  </div>
+</div>
+
 
             <div className="ml-6 md:ml-12">
               <h4 className="font-semibold mb-3">Contact</h4>
