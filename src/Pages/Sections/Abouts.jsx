@@ -7,6 +7,7 @@ import icon2 from "../../assets/express.png";
 import icon3 from "../../assets/React.png";
 import icon4 from "../../assets/node-js.png";
 import icon5 from "../../assets/python.png";
+import resume from "/src/assets/Sathwik Kamath(Resume).pdf"
 
 export default function About() {
   const rootRef = useRef(null);
@@ -103,7 +104,7 @@ export default function About() {
             <div className="mt-6 flex gap-3">
               <a
                 className="inline-block border border-[#d89463] text-[#d89463] px-5 py-2 rounded hover:bg-[#d89463] hover:text-[#0f0b0b] transition"
-                href="/src/assets/Sathwik Kamath(Resume).pdf"
+                href={resume}
                 download
               >
                 Download CV
