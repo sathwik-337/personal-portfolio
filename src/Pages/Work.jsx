@@ -42,7 +42,7 @@ const PROJECTS = [
      "Smooth Layout",
     ],
     tech: ["React", "Vercel"],
-    screenshots: Saloon,
+    screenshots: [Saloon],
     live: "https://vrnsaloon.vercel.app/",
     repo: "",
   },
