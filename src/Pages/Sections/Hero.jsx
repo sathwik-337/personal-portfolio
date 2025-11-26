@@ -2,6 +2,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import heropic from "/src/assets/heropic.png";
 
 /**
  * Hero with integrated animated pattern background + optional portrait image.
@@ -14,8 +15,8 @@ import { Link } from "react-router-dom";
  * /mnt/data/c1d6aba9-78f4-4f57-a42c-2f54613de127.png
  */
 
-const HERO_BG = "";
-const DEFAULT_PORTRAIT = "/src/assets/heropic.png";
+
+const DEFAULT_PORTRAIT = heropic;
 
 const ACCENT = "#d89463";
 const WHITE = "#fff";
