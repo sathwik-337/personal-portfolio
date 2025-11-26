@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+/* GLOBAL FONT SETUP */
+
+/* Headings use Poppins */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; /* you can change to 800 for hero headings */
+  letter-spacing: 0.2px;
+}
+
+/* Body + paragraphs use Inter */
+body, p, li, span, div, a, button, input {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+/* Optional small tweak */
+p {
+  line-height: 1.65;
+}
+
+/* Smooth rendering */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
