@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
  * /mnt/data/c1d6aba9-78f4-4f57-a42c-2f54613de127.png
  */
 
-const HERO_BG = "/mnt/data/1873d8e6-e937-4f7f-846c-22dc88a4d4c7.png";
+const HERO_BG = "";
 const DEFAULT_PORTRAIT = "/src/assets/heropic.png";
 
 const ACCENT = "#d89463";
