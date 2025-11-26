@@ -4,6 +4,7 @@ import { FaWhatsapp, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { FiMail, FiExternalLink } from "react-icons/fi";
 import resume from "/src/assets/Sathwik Kamath(Resume).pdf"
 import styled, { css } from "styled-components";
+import { Link, NavLink } from "react-router-dom";
 
 // background image uploaded to /mnt/data (keeps your original asset path)
 const BG = "/mnt/data/75154ad3-c13d-41aa-b215-484f7d1887f0.png";
