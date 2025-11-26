@@ -8,6 +8,9 @@ import { Link, NavLink } from "react-router-dom";
 
 // background image uploaded to /mnt/data (keeps your original asset path)
 const BG = "/mnt/data/75154ad3-c13d-41aa-b215-484f7d1887f0.png";
+const ACCENT = "#d89463";
+const DARK_BG = "#2b1b1e";
+const TEXT_LIGHT = "#f6f2f2";
 
 const CTA = styled(Link)`
   border: 1px solid ${ACCENT};
