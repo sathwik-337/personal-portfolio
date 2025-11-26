@@ -2,6 +2,7 @@
 import React from "react";
 import { FaWhatsapp, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { FiMail, FiExternalLink } from "react-icons/fi";
+import resume from "/src/assets/Sathwik Kamath(Resume).pdf"
 
 // background image uploaded to /mnt/data (keeps your original asset path)
 const BG = "/mnt/data/75154ad3-c13d-41aa-b215-484f7d1887f0.png";
@@ -73,14 +74,14 @@ export default function ContactCTA() {
             
 
             <div className="mt-6 flex gap-3">
-              <a
-                href="/contact"
-                className="inline-block bg-[#d89463] text-[#0f0b0b] px-5 py-3 rounded-md font-medium shadow-sm hover:opacity-95 transition"
-              >
+              <CTA to="/contact" className="inline-block bg-[#d89463] text-[#0f0b0b] px-5 py-3 rounded-md font-medium shadow-sm hover:opacity-95 transition">Let's Talk
+               
+               
                 Hire Me
-              </a>
+                </CTA>
+             
               <a
-                href="/src/assets/Sathwik Kamath(Resume).pdf"
+                href={resume}
                 download
                 className="inline-block border border-white/20 text-white px-5 py-3 rounded-md hover:bg-white/5 transition"
               >
